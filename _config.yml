@@ -22,4 +22,4 @@ defaults:
     values:
       layout: "post"
       author: "Darin Dimitroff"
-      date: "%Y-%d-%m"
+      date: "%B %d, %Y"
