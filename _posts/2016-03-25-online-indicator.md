@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  The need for an “Online” system indicator
-date:   2016-02-29
+date:   February 29, 2016
 image: /images/internet-indicator-hero.png
 time: 3.5
 ---
