@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Improved IMDB watchlist for iOS
+date: May 20, 2016
 image: /images/better-watchlist-cover.png
 time: 2
 ---
