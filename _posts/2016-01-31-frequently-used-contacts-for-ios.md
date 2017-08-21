@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Frequently used contacts for iOS
-date:   2016-01-31
+date:   January 31, 2016
 image: /images/frequent-contacts-hero.png
 time: 3.5
 ---
