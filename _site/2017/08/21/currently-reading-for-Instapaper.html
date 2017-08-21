@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    
+      <title>Currently Reading for Instapaper | Improved</title>
+      <meta property="og:title" content="Currently Reading for Instapaper | Improved" />
+      <meta property="og:image" content="/images/currently-reading-hero.jpg" />
+    
+
+    <meta name="description" content="Making software just a bit better.">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0;"/>
+
+    <!-- CSS & JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/css/stylesheet.css">
+
+    <!-- RSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#191c1f">
+<meta name="apple-mobile-web-app-title" content="Improved">
+<meta name="application-name" content="Improved">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+  <script type="text/javascript" src="/Scripts/min/functions-min.js"></script>
+<!--Google Analytics-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-72422130-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+
+<body>
+	<div class="content">
+		<!--The Navbar–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="navbar">
+  <a href="/" class="logo">Improved</a>
+  <ul class="nav-options">
+    <li class="navlink" href="/about" id="infoButton" data-anijs="if: click, do: $addClass visible, to: #infoModal">What is this?</li>
+  </ul>
+</div>
+
+		<div class="section">
+	<div class="container">
+		
+		<img class="hero 2x" src="/images/currently-reading-hero.jpg">
+		
+		<div class="paragraphContainer">
+			<h1>Currently Reading for Instapaper</h1>
+			<p class="published-date"><!-- Whitespace added for readability -->
+
+August
+21st
+
+2017<span class="length">2 min read</span></p>
+		</div>
+		<div class="paragraphContainer">
+			<p><strong>Contribution by Angel Shoilev</strong></p>
+
+<p>One of my favorite apps, if not the favorite app on my phone, is Instapaper. It helps me stay on top of my day, without having to read pieces I’d otherwise totally forget about. It looks great, too. Yet, there’s one thing that keeps bugging me - the lack of а way to continue reading where I left off.</p>
+
+<h2 id="️-whats-the-use-case">🤷‍♂️ What’s the use case?</h2>
+<p>Most of the articles I save on Instapaper are long reads and, as I save a lot of them, they tend to stack up, creating a long, sad list of articles I’m hoping to read on day.</p>
+
+<p>As I am sure most people do, I read a lot during my morning commutes, during breaks while at the office and at home. Device-wise these occasions happen in the following order: phone, desktop, phone.</p>
+
+<p>So, here’s the friction point: If I’m reading an older article on my phone, thus further down on the list, and I switch between devices, I have to find the article once again to continue where I left off on a previous device (or on the same device too).</p>
+
+<p>At this point I can try using the app’s Read Progress filter, but reading progress doesn’t necessarily equal the chronological order in which I’ve opened and read the articles on my list.</p>
+
+<h2 id="-so-whats-the-solution">🤔 So, what’s the solution?</h2>
+
+<p>A collection of swipeable cards, named Currently Reading, that are pinned above the article list. I believe sideswiping is an easy to use and well-known interaction pattern. At the bottom of every card there’s a progress bar, showing me the progress in the article (more on this pattern in Darin’s post).</p>
+
+<p><img src="/images/currently-reading-2.png" alt="The internet indicator icon shows the classic network icon Apple' uses: lines of light circling around the Earth. Here it's shown it it's on and off states." /></p>
+
+<p>Although the cards have a slight Material Design feel, they’re not conflicting Instapaper’s overall design language, which was crucial. To make the feature more prominent and keep Instapaper’s main menu up to date, we could also introduce a standard menu item for Currently Reading.</p>
+
+<p><img src="/images/currently-reading-1.png" alt="The internet indicator icon shows the classic network icon Apple' uses: lines of light circling around the Earth. Here it's shown it it's on and off states." /></p>
+
+<p>I don’t know about you, but one of these surely would make my Instapaper cross-device-experience a lot smoother.</p>
+
+			<h2>One more thing...</h2>
+			<p>Have an awesome idea about how this could work better? Don't keep it to yourself, send me a <a href="mailto:d@thecrazyones.agency">quick email</a> or DM me on <a href="http://www.twitter.com/@deezel" target="blank">Twitter</a>. I’ll feature it as an update on this page with full credit.</p>
+		</div>
+		<div class="separator"></div>
+	</div>
+</div>
+
+		<footer>
+  <div class="container">
+    <p>A project by <a href="http://www.darindimitroff.com">Darin Dimitroff</a>. Set in <a href="https://www.boldmonday.com/typeface/nitti-grotesk/">Nitti Grotesk</a> and served by <a href="http://jekyllrb.com">Jekyll</a>.</p>
+  </div>
+</footer>
+
+	</div>
+	<!--What's This-->
+<div class="modal" id="infoModal">
+    <div class="navbar">
+      <ul class="nav-options">
+        <li class="navlink close" data-anijs="if: click, do: $removeClass visible, to: #infoModal">Close</li>
+      </ul>
+    </div>
+    <div class="container">
+    <div class="modalText">
+      <div class="paragraphContainer">
+        <h1 class="title">improved</h1>
+        <p>Improved is a project by <a href="http://www.darindimitroff.com" target="_blank">Darin Dimitroff</a>, product designer at <a href="http://www.thecrazyones.agency" target="_blank">The Crazy Ones</a>.</p>
+        <p>Developing complete visual overhauls and focusing solely on decoration is a thing among designers these days, especially on Dribbble. In a world of increasing complexity, we should strive to be recognized as engineers, not jewelers. My goal for Improved is to appreciate what great design teams have built and try to take it at least one tiny step further. Nothing more.
+        </p>
+        <p>
+          <strong>TLDR: I see things that could be improved every day. This is a place where I explore ideas through writing and prototyping.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script src="/Scripts/anijs-min.js"></script>
+<script src="/Scripts/anijs-helper-dom-min.js"></script>
+<script src="/Scripts/min/functions-min.js"></script>

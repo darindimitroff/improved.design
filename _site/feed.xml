@@ -4,11 +4,45 @@
     <title>Improved</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://improved.design/</link>
-    <atom:link href="http://improved.design/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 May 2016 16:37:45 +0300</pubDate>
-    <lastBuildDate>Sat, 21 May 2016 16:37:45 +0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Aug 2017 22:34:43 +0300</pubDate>
+    <lastBuildDate>Mon, 21 Aug 2017 22:34:43 +0300</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Currently Reading for Instapaper</title>
+        <description>&lt;p&gt;&lt;strong&gt;Contribution by Angel Shoilev&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One of my favorite apps, if not the favorite app on my phone, is Instapaper. It helps me stay on top of my day, without having to read pieces I’d otherwise totally forget about. It looks great, too. Yet, there’s one thing that keeps bugging me - the lack of а way to continue reading where I left off.&lt;/p&gt;
+
+&lt;h2 id=&quot;️-whats-the-use-case&quot;&gt;🤷‍♂️ What’s the use case?&lt;/h2&gt;
+&lt;p&gt;Most of the articles I save on Instapaper are long reads and, as I save a lot of them, they tend to stack up, creating a long, sad list of articles I’m hoping to read on day.&lt;/p&gt;
+
+&lt;p&gt;As I am sure most people do, I read a lot during my morning commutes, during breaks while at the office and at home. Device-wise these occasions happen in the following order: phone, desktop, phone.&lt;/p&gt;
+
+&lt;p&gt;So, here’s the friction point: If I’m reading an older article on my phone, thus further down on the list, and I switch between devices, I have to find the article once again to continue where I left off on a previous device (or on the same device too).&lt;/p&gt;
+
+&lt;p&gt;At this point I can try using the app’s Read Progress filter, but reading progress doesn’t necessarily equal the chronological order in which I’ve opened and read the articles on my list.&lt;/p&gt;
+
+&lt;h2 id=&quot;-so-whats-the-solution&quot;&gt;🤔 So, what’s the solution?&lt;/h2&gt;
+
+&lt;p&gt;A collection of swipeable cards, named Currently Reading, that are pinned above the article list. I believe sideswiping is an easy to use and well-known interaction pattern. At the bottom of every card there’s a progress bar, showing me the progress in the article (more on this pattern in Darin’s post).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/currently-reading-2.png&quot; alt=&quot;The internet indicator icon shows the classic network icon Apple' uses: lines of light circling around the Earth. Here it's shown it it's on and off states.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although the cards have a slight Material Design feel, they’re not conflicting Instapaper’s overall design language, which was crucial. To make the feature more prominent and keep Instapaper’s main menu up to date, we could also introduce a standard menu item for Currently Reading.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/currently-reading-1.png&quot; alt=&quot;The internet indicator icon shows the classic network icon Apple' uses: lines of light circling around the Earth. Here it's shown it it's on and off states.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t know about you, but one of these surely would make my Instapaper cross-device-experience a lot smoother.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Aug 2017 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/2017/08/21/currently-reading-for-Instapaper.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/21/currently-reading-for-Instapaper.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Improved IMDB watchlist for iOS</title>
@@ -16,9 +50,9 @@
 
 &lt;figure&gt;
 
-  &lt;img class=&quot;2x responsive-vertical-image&quot; src=&quot;/images/better-watchlist-1.png&quot; alt=&quot;A screenshot of IMDB&#39;s currrent watchlis on iOS&quot; /&gt;
+  &lt;img class=&quot;2x responsive-vertical-image&quot; src=&quot;/images/better-watchlist-1.png&quot; alt=&quot;A screenshot of IMDB's currrent watchlis on iOS&quot; /&gt;
 
-  &lt;figcaption&gt;The current version of IMDB&#39;s watchlist on iOS 😐&lt;/figcaption&gt;
+  &lt;figcaption&gt;The current version of IMDB's watchlist on iOS 😐&lt;/figcaption&gt;
 
 &lt;/figure&gt;
 
@@ -64,8 +98,8 @@ Your browser does not support the video tag.
 &lt;p&gt;In conclusion, designing with 100% standard components is a super mindful and straightforward process. Although it’s not the ultimate solution to every problem, I wish we had more native apps nowadays, like in the early days of the App Store.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 May 2016 00:00:00 +0300</pubDate>
-        <link>http://improved.design/2016/05/20/better-imdb-watchlist.html</link>
-        <guid isPermaLink="true">http://improved.design/2016/05/20/better-imdb-watchlist.html</guid>
+        <link>http://localhost:4000/2016/05/20/better-imdb-watchlist.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/05/20/better-imdb-watchlist.html</guid>
         
         
       </item>
@@ -112,8 +146,8 @@ Your browser does not support the video tag.
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 25 Mar 2016 00:00:00 +0200</pubDate>
-        <link>http://improved.design/2016/03/25/resonable-hamburger-replacemet.html</link>
-        <guid isPermaLink="true">http://improved.design/2016/03/25/resonable-hamburger-replacemet.html</guid>
+        <link>http://localhost:4000/2016/03/25/resonable-hamburger-replacemet.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/03/25/resonable-hamburger-replacemet.html</guid>
         
         
       </item>
@@ -133,7 +167,7 @@ Your browser does not support the video tag.
 
 &lt;p&gt;I’m sure the concept feels obvious and most of you have considered it at some point, consciously or subconsciously. So many products nowadays have their own Online indicators, yet the system that serves as their environment deals with the problem quite primitively.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/internet-indicator-icon.png&quot; alt=&quot;The internet indicator icon shows the classic network icon Apple&#39; uses: lines of light circling around the Earth. Here it&#39;s shown it it&#39;s on and off states.&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/internet-indicator-icon.png&quot; alt=&quot;The internet indicator icon shows the classic network icon Apple' uses: lines of light circling around the Earth. Here it's shown it it's on and off states.&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;keeping-it-consistent-with-the-system&quot;&gt;Keeping it consistent with the system&lt;/h2&gt;
 &lt;p&gt;I don’t consider myself a specialist in visual design, so I didn’t put too much sweat into the icon. Designing monochrome glyphs in a 16px x 16px frame is challenging. I’m not a huge fan of Apple’s classic symbol for… Internet stuff (?), but I decided to stick with it. I tried to keep it legible with some additional pixel fitting, but it’s still a bit fuzzier than Apple’s own icons.&lt;/p&gt;
@@ -161,8 +195,8 @@ Your browser does not support the video tag.
 &lt;p&gt;A similar system could work on iOS, but I’m not sure it needs it. The system already displays a spinner in the status bar when an app uses the connection. Another thing is that we don’t stare at the screens of our mobile devices all the time while we’re using them. A lot of apps also use data in the background or in sleep mode. This is why Apple’s own data statistics in Settings feel more convenient.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Feb 2016 00:00:00 +0200</pubDate>
-        <link>http://improved.design/2016/02/29/online-indicator.html</link>
-        <guid isPermaLink="true">http://improved.design/2016/02/29/online-indicator.html</guid>
+        <link>http://localhost:4000/2016/02/29/online-indicator.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/02/29/online-indicator.html</guid>
         
         
       </item>
@@ -181,9 +215,11 @@ Your browser does not support the video tag.
 
 &lt;p&gt;Keeping in mind Instapaper’s stark aesthetics, I used an optically corrected version of the grey used for the original progress indicator. Pocket, on the other hand, is much more colorful and can adapt aquamarine indicators without them grabbing too much attention. Picking the color was a tough choice: after messing around with Pocket for a few minutes, I figured out it’s the only one of their four brand colors that doesn’t have a place in the system. Magenta is the general highlight color, teal is used for labels and other small components and yellow is for notification buttons.&lt;/p&gt;
 
-&lt;p&gt;The two disadvantages I’m aware of are:
-- some people might have a hard time figuring out the connection between progress indicators and list items. Is it attached to the top or to the bottom? I’ve experienced similar frustrations with long lists with no visual breaks.
-- it might be a tad too bold. But clarity should always be king, so not too much of a problem there.&lt;/p&gt;
+&lt;p&gt;The two disadvantages I’m aware of are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;some people might have a hard time figuring out the connection between progress indicators and list items. Is it attached to the top or to the bottom? I’ve experienced similar frustrations with long lists with no visual breaks.&lt;/li&gt;
+  &lt;li&gt;it might be a tad too bold. But clarity should always be king, so not too much of a problem there.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;concept-2&quot;&gt;Concept 2&lt;/h2&gt;
 &lt;p&gt;The second concept is, in my opinion, far less scalable and only  a marginal improvement compared to the current implementation. I came up with it just to challenged my original concept. It features a small round indicator sitting inline wth the existing text. It might look hard to read on screenshots, but it’s pretty generously sized on actual devices.&lt;/p&gt;
@@ -193,8 +229,8 @@ Your browser does not support the video tag.
 &lt;p&gt;No interactive prototypes this time: both concepts are kind of static and I’m trying to complete my bachelor thesis in as little time as possible.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Feb 2016 00:00:00 +0200</pubDate>
-        <link>http://improved.design/2016/02/19/better-progress-indicators.html</link>
-        <guid isPermaLink="true">http://improved.design/2016/02/19/better-progress-indicators.html</guid>
+        <link>http://localhost:4000/2016/02/19/better-progress-indicators.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/02/19/better-progress-indicators.html</guid>
         
         
       </item>
@@ -203,7 +239,7 @@ Your browser does not support the video tag.
         <title>Frequently used contacts for iOS</title>
         <description>&lt;p&gt;No other generation has had the chance to communicate with so many people through such a wide variety of channels than ours. Yet, majority of online interactions are formed by a small group of repeating actions. In most cases, we communicate with a single individual through a single channel. Send an iMessage to mom and dad, email a coworker, reach a group a friends through Messenger. It’s probably what you end up doing every time you pull up the share sheet. Yet, there’s no quick way to do it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/mac-recents.png&quot; alt=&quot;OS X&#39;s Recents Menu&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/mac-recents.png&quot; alt=&quot;OS X's Recents Menu&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;taking-inspiration-from-the-mac&quot;&gt;Taking inspiration from the Mac&lt;/h2&gt;
 &lt;p&gt;The latest versions of OS X have solved this problem quite elegantly. There’s a “Recents” section in the Share menu. It’s not exactly what I have in mind, but it’s a great little interaction: fits perfectly inside the generic share menu, is extremely intuitive and, best of all, can adapt to your social patterns. Unfortunately, not too many OS X apps have share sheet extensions, so I don’t find myself using the native share sheet too often.&lt;/p&gt;
@@ -212,9 +248,9 @@ Your browser does not support the video tag.
 &lt;p&gt;What’s great about the Mac’s “Recents” section is that it adopts the concept of a “Contact+Channel” pair. Not only does it remember the person, but the way you reached them. How could we make it better?
 Instead of listing the most recent interactions, it makes much more sense to maintain a list of the most common ones throughout a longer period of time.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/wasted-space.png&quot; alt=&quot;AirDrop compared with the ohter section of iOS&#39; share sheet&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/wasted-space.png&quot; alt=&quot;AirDrop compared with the ohter section of iOS' share sheet&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;pt-of-wasted-space&quot;&gt;126pt of wasted space&lt;/h2&gt;
+&lt;h2 id=&quot;126pt-of-wasted-space&quot;&gt;126pt of wasted space&lt;/h2&gt;
 &lt;p&gt;But where would this menu fit and how would it work? After going  through the architecture of iOS’ share sheet, I thought about the 126pt of vertical space the AirDrop menu is wasting. It has at least a few problems.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -234,7 +270,7 @@ Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;div class=&quot;framer-wrapper&quot;&gt;
 
-  &lt;p class=&quot;tooltip&quot;&gt;Go through the prototype by clicking on any of the three contacts and tap anywhere to dismiss. There&#39;s a video if you&#39;re on mobile.↓&lt;/p&gt;
+  &lt;p class=&quot;tooltip&quot;&gt;Go through the prototype by clicking on any of the three contacts and tap anywhere to dismiss. There's a video if you're on mobile.↓&lt;/p&gt;
 
   &lt;iframe data-anijs=&quot;if: mouseover, do: $addClass darkroom, to: body; if: mouseout, do: $removeClass darkroom, to: body&quot; style=&quot;width: 100%;
       height: 800px;&quot; class=&quot;framer&quot; src=&quot;http://share.framerjs.com/p0pi4t8rc1qe/&quot;&gt;&lt;/iframe&gt;
@@ -247,8 +283,8 @@ Your browser does not support the video tag.
 &lt;p&gt;I’m not too familiar with the iOS SDK, but I presume it might not contain an API that allows social apps to share a list of their most frequently used contacts. In my prototype, the share sheet includes a Messenger contact, which might not work. Anyway, even Messages, Mail and Twitter would be a nice start.&lt;/p&gt;
 </description>
         <pubDate>Sun, 31 Jan 2016 00:00:00 +0200</pubDate>
-        <link>http://improved.design/2016/01/31/frequently-used-contacts-for-ios.html</link>
-        <guid isPermaLink="true">http://improved.design/2016/01/31/frequently-used-contacts-for-ios.html</guid>
+        <link>http://localhost:4000/2016/01/31/frequently-used-contacts-for-ios.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/01/31/frequently-used-contacts-for-ios.html</guid>
         
         
       </item>
@@ -315,8 +351,8 @@ Your browser does not support the video tag.
 &lt;p&gt;I also did some experiments with a concept featuring a master/slave connection between a “master symbol” and all its iterations, but it is a poor idea. No one should have to go back searching for the original version to make changes. An “Edit” button on the symbols organization pane might be better, but it deviates from the easy way to edit properties in the inspector: something Sketch never does.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Jan 2016 00:00:00 +0200</pubDate>
-        <link>http://improved.design/2016/01/14/better-symbols-for-sketch.html</link>
-        <guid isPermaLink="true">http://improved.design/2016/01/14/better-symbols-for-sketch.html</guid>
+        <link>http://localhost:4000/2016/01/14/better-symbols-for-sketch.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/01/14/better-symbols-for-sketch.html</guid>
         
         
       </item>
@@ -344,8 +380,8 @@ Your browser does not support the video tag.
 &lt;p&gt;Younger me would say the driving force behind coming back to Improved is the rise of daily UI challenges. I have to admit, I’m not their biggest fan. All those articles on the Dribbblisation of design? I mostly agree with them. At the same  time, why be so negative? Design is awesome and everyone has the  right to practice and publicize it in all ways they find suitable.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jan 2016 00:00:00 +0200</pubDate>
-        <link>http://improved.design/2016/01/12/hello-world.html</link>
-        <guid isPermaLink="true">http://improved.design/2016/01/12/hello-world.html</guid>
+        <link>http://localhost:4000/2016/01/12/hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/01/12/hello-world.html</guid>
         
         
       </item>
