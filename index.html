@@ -1,0 +1,37 @@
+---
+
+layout: "default"
+title: "Improved"
+---
+
+<!--Content-->
+<div class="section">
+	<div class="container">
+		{% for post in site.posts %}
+		<li class="post">
+			<div class="paragraphContainer">
+				<a href="{{ post.url }}"><h1>{{post.title}}</h1></a>
+				<p class="published-date">{% assign d = post.date | date: "%-d"  %}
+				{{ post.date | date: "%B" }}
+				{% case d %}
+				{% when '1' or '21' or '31' %}{{ d }}st
+				{% when '2' or '22' %}{{ d }}nd
+				{% when '3' or '23' %}{{ d }}rd
+				{% else %}{{ d }}th
+				{% endcase %}
+				{{ post.date | date: "%Y" }}<span class="length">{{post.time}} min read</span></p>
+				{% if post.image %}
+				<img class="2x" src="{{ post.image }}">
+				{% else %}
+				{% endif %}
+				{{ post.excerpt | remove: '<p>' | remove: '</p>' | }}
+				<br>
+				<p><a href="{{ post.url }}"><strong>Read More →</strong></a></p>
+			</div>
+			<div class="separator">
+			</div>
+		</li>
+		{% endfor %}
+	</div>
+</div>
+</div>

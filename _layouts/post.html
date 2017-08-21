@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="section">
+	<div class="container">
+		{% if page.image %}
+		<img class="hero 2x" src="{{ page.image }}">{{ site.baseurl }}
+		{% else %}
+		{% endif %}
+		<div class="paragraphContainer">
+			<h1>{{page.title}}</h1>
+			<p class="published-date"><!-- Whitespace added for readability -->
+{% assign d = page.date | date: "%-d"  %}
+{{ page.date | date: "%B" }}
+{% case d %}
+{% when '1' or '21' or '31' %}{{ d }}st
+{% when '2' or '22' %}{{ d }}nd
+{% when '3' or '23' %}{{ d }}rd
+{% else %}{{ d }}th
+{% endcase %}
+{{ page.date | date: "%Y" }}<span class="length">{{ page.time }} min read</span></p>
+		</div>
+		<div class="paragraphContainer">
+			{{ content }}
+			<h2>One more thing...</h2>
+			<p>Have an awesome idea about how this could work better? Don't keep it to yourself, send me a <a href="mailto:d@thecrazyones.agency">quick email</a> or DM me on <a href="http://www.twitter.com/@deezel" target="blank">Twitter</a>. I’ll feature it as an update on this page with full credit.</p>
+		</div>
+		<div class="separator"></div>
+	</div>
+</div>
