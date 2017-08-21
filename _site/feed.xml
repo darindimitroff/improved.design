@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Improved</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://improved.design/</link>
+    <atom:link href="http://improved.design/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 21 May 2016 16:37:45 +0300</pubDate>
+    <lastBuildDate>Sat, 21 May 2016 16:37:45 +0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Improved IMDB watchlist for iOS</title>
+        <description>&lt;p&gt;IMDB is not the sexiest product around, but it’s extremely useful and has virtually no real alternatives. With a database so rich it’s a priceless resource (and it’s free). One of the features I use the most is IMDB’s watchlist. Pretty standard stuff, kind of like Instapaper for movies. I prefer saving movies inside the app instead of in Instapaper or a Reminders list. It’s super convenient to see more info with a single tap, including rich previews with posters.&lt;/p&gt;
+
+&lt;figure&gt;
+
+  &lt;img class=&quot;2x responsive-vertical-image&quot; src=&quot;/images/better-watchlist-1.png&quot; alt=&quot;A screenshot of IMDB&#39;s currrent watchlis on iOS&quot; /&gt;
+
+  &lt;figcaption&gt;The current version of IMDB&#39;s watchlist on iOS 😐&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Unfortunately, IMDB’s watchlist experience is not too great. The web version is… dated and, while iOS looks pretty native and current, it’s actually a bonanza of non-native components and weird choices like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;non-standard search component&lt;/li&gt;
+  &lt;li&gt;tiny share button with a squished icon&lt;/li&gt;
+  &lt;li&gt;an extremely awkward title&lt;/li&gt;
+  &lt;li&gt;“New message/note” button which is actually an “Edit” button. On top of that, it opens a completely different view, something I’ve never seen elsewhere.&lt;/li&gt;
+  &lt;li&gt;full-width sorting bar which is actually one huge button (with a fake visual button and a counter)&lt;/li&gt;
+  &lt;li&gt;full-width “Add to List” button&lt;/li&gt;
+  &lt;li&gt;puzzling “Mark as watched” buttons which trigger a delete menu 🙄&lt;/li&gt;
+  &lt;li&gt;“Play trailer” shortcut buttons which look similar to the native list view chevrons&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now that’s a lot, isn’t it? It’s not that hard to make it better, all we need is the HIG and some basic components used right. Here’s what I did in a few evenings.&lt;/p&gt;
+
+&lt;video width=&quot;100%&quot; height=&quot;auto&quot; controls=&quot;controls&quot;&gt;
+&lt;source src=&quot;/video/better-watchlist.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;source src=&quot;/video/better-watchlist.webm&quot; type=&quot;video/webm&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;div class=&quot;framer-wrapper&quot;&gt;
+
+  &lt;p class=&quot;tooltip&quot;&gt;&lt;/p&gt;
+
+  &lt;iframe data-anijs=&quot;if: mouseover, do: $addClass darkroom, to: body; if: mouseout, do: $removeClass darkroom, to: body&quot; class=&quot;framer&quot; height=&quot;832&quot; src=&quot;http://share.framerjs.com/n2eppqximdcp/&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It’s nothing special, just:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a standard navbar with a title, “Back” and “Edit” buttons and an additional “Sort” button (a rarely used layout found in Notes)&lt;/li&gt;
+  &lt;li&gt;a standard search bar&lt;/li&gt;
+  &lt;li&gt;a native bottom bar with a “Share” button and an “Add” button&lt;/li&gt;
+  &lt;li&gt;a native couple of swipe actions to mark movies as watched or delete them&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ve also included a small part of the Shared watchlist feature I’m working on. As you might expect, it allows family members to access and edit a single watchlist. It’s coming soon.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, designing with 100% standard components is a super mindful and straightforward process. Although it’s not the ultimate solution to every problem, I wish we had more native apps nowadays, like in the early days of the App Store.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 May 2016 00:00:00 +0300</pubDate>
+        <link>http://improved.design/2016/05/20/better-imdb-watchlist.html</link>
+        <guid isPermaLink="true">http://improved.design/2016/05/20/better-imdb-watchlist.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A reasonable hamburger menu replacement with Flexbox</title>
+        <description>&lt;p&gt;Hamburger menus are the prevalent way to access the majority of a site’s navigation these days. Last year, I believe it’s become clear that the hamburger is a subpar approach that screams desktop first. The reasoning is pretty simple: we create large, unnecessarily complex navigations for desktops and try to fit them on screens with far less real estate. Thus, the junk drawer is born, hiding even the primary navigation from the user.&lt;/p&gt;
+
+&lt;p&gt;Looking back, I’ve used hamburger menus more than a few times and I feel bad about it. Even the current version of &lt;a href=&quot;http://www.thecrazyones.agency&quot;&gt;our  website&lt;/a&gt; features one (it’s bad, new site is in the works). I try not to use hamburgers anymore as I try to think of more adaptive and contextual navigation patterns. The problem with a lot of anti-hamburger articles these days, however, is that they don’t suggest alternatives.&lt;/p&gt;
+
+&lt;p&gt;Tab bars are great for apps, but look awkward in most websites. Regardless, they force designers to prioritize, not allowing for more than five items in the primary nav.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-help-from-flexbox&quot;&gt;Some help from Flexbox&lt;/h2&gt;
+&lt;p&gt;I’ve been using variations of this concept in production for a few months now, but I never considered writing about it. &lt;a href=&quot;http://codepen.io/chriscoyier/pen/bppOVP/&quot;&gt;This codepen by chriscoyer&lt;/a&gt; and the Twitter reactions it generated reminded me that I should do it.&lt;/p&gt;
+
+&lt;p&gt;I believe usability patterns are often inspired by the capabilities of certain technologies. While working on a complete redesign of a web product for a client a few months ago, I spent some time playing around with the different properties of Flexbox. This was the second project where we used Flexbox in production and I’m still amazed by it’s capabilities.&lt;/p&gt;
+
+&lt;p&gt;I had a chance to revisit the information architecture of the product, so we designed a lean primary navigation with just four main items and three secondary items: logo (home link), profile (sing in/up) and search. Everything else fit into one of the four main categories, eliminating clutter.&lt;/p&gt;
+
+&lt;p&gt;As you can see, the four main items work similarly to a tab bar, with icons and labels. This creates room for a larger tap area on touch devices and takes less horizontal space. Moving to the desktop, we want to make use of the available width, so we use Flexbox to move the icons to the left. The navbar is now vertically thinner (we don’t need to optimize for touch anymore).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/mobile-flexbox-nav.gif&quot; alt=&quot;Mobile Flexbox Nav&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/desktop-flexbox-nav.gif&quot; alt=&quot;Desktop Flexbox Nav&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sorry for the blurring. It’s a client project.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;With a few lines of code, this could be transformed into a combination of separate bottom tab bar and top side scrolling navigation.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-leaner-navigation-is-not-always-an-option&quot;&gt;A leaner navigation is not always an option&lt;/h2&gt;
+&lt;p&gt;Diving into the early days of the web, it’s easy to see how primary navigations got more complex with the years. I’m not advocating for 4-5 items for all websites and apps, but I’m trying to push this concept into my recent work. The mysterious blurred project above is one of those: it features a secondary side scrolling nav activated on click.&lt;/p&gt;
+
+&lt;p&gt;Suggesting a leaner navigational structure is always the best option, but there are a lot of cases when we can’t really do that. It might not be a part of the project’s scope or higher management might not be able to see the appeal. That’s way I decided to build a prototype featuring a “normal” modern day navigation. In case you are wondering, this is &lt;a href=&quot;theverge.com&quot;&gt;The Verge&lt;/a&gt;’s primary nav.&lt;/p&gt;
+
+&lt;p data-height=&quot;200&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;NNrorr&quot; data-default-tab=&quot;result&quot; data-user=&quot;deezel&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/deezel/pen/NNrorr/&quot;&gt;Flexbox Hamburger Menu Alternative&lt;/a&gt; by Darin Dimitroff (&lt;a href=&quot;http://codepen.io/deezel&quot;&gt;@deezel&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;benefits&quot;&gt;Benefits&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;it’s a mobile-first approach&lt;/li&gt;
+  &lt;li&gt;100% based on web standards (no JS required)&lt;/li&gt;
+  &lt;li&gt;works in all modern browsers&lt;/li&gt;
+  &lt;li&gt;allows for easy mode switching using media queries&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 25 Mar 2016 00:00:00 +0200</pubDate>
+        <link>http://improved.design/2016/03/25/resonable-hamburger-replacemet.html</link>
+        <guid isPermaLink="true">http://improved.design/2016/03/25/resonable-hamburger-replacemet.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The need for an “Online” system indicator</title>
+        <description>&lt;p&gt;Going offline for a while feels amazing when it’s us who pick when it happens. On the other hand, going offline unexpectedly because of a network problem is frustrating. It happens all the time: poor home/office connections, during flights, in areas with poor wireless connectivity, among others.&lt;/p&gt;
+
+&lt;p&gt;One of the most frustrating things about spontaneously lost connections is that we realize what’s happened much later: when the application we’re using stops working properly. Some of those moments might actually feel pretty sad. Your favorite song stopping right before the best part. A “Typing” indicator in Messenger that stays up for too long. An important upload that gets stuck at 98% until the dreaded error message appears, disrupting our flow with a jumping icon in the dock. We’ve all been there.&lt;/p&gt;
+
+&lt;p&gt;While a 24/7/365 networking stack without any problems along the way is an impossible task, announcing the disruption of internet connectivity to the user could be done a bit more gracefully.&lt;/p&gt;
+
+&lt;h2 id=&quot;dropbox-already-does-it&quot;&gt;Dropbox already does it&lt;/h2&gt;
+&lt;p&gt;Relying on the Wifi menu bar item works in some cases. However, there are a lot of times when the device stays connected to the router and the problem is somewhere further away from the user. In those cases, the Wifi (or Ethernet, Bluetooth, USB) icons don’t have anything to do with the problem, so they preserve their active state.&lt;/p&gt;
+
+&lt;p&gt;When it comes to desktop platforms, OS X to be specific, there are myriad of apps that already implement this concept. If you are using Dropbox, Google Drive or Droplr, for example, you already have a recognizable icon that is grayed out when you’re offline. Using those as indicators for a system status like this is, to say the least, not semantic.&lt;/p&gt;
+
+&lt;p&gt;I’m sure the concept feels obvious and most of you have considered it at some point, consciously or subconsciously. So many products nowadays have their own Online indicators, yet the system that serves as their environment deals with the problem quite primitively.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/internet-indicator-icon.png&quot; alt=&quot;The internet indicator icon shows the classic network icon Apple&#39; uses: lines of light circling around the Earth. Here it&#39;s shown it it&#39;s on and off states.&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;keeping-it-consistent-with-the-system&quot;&gt;Keeping it consistent with the system&lt;/h2&gt;
+&lt;p&gt;I don’t consider myself a specialist in visual design, so I didn’t put too much sweat into the icon. Designing monochrome glyphs in a 16px x 16px frame is challenging. I’m not a huge fan of Apple’s classic symbol for… Internet stuff (?), but I decided to stick with it. I tried to keep it legible with some additional pixel fitting, but it’s still a bit fuzzier than Apple’s own icons.&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-some-functionality&quot;&gt;Adding some functionality&lt;/h2&gt;
+&lt;p&gt;A menu bar item without a menu would feel weird. More importantly, the menu bar menus are a great way to add useful controls without wasting even a single additional pixel. They serve both as indicators and buttons.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/internet-indicator-menu.png&quot; alt=&quot;An isolated view of the menu.&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The more you know&lt;/strong&gt;: while working on this concept, I realized Apple uses an ellipsis (…) after menu options that lead to external menus. It’s super old school, but I love it. Try looking for this pattern in software altogether, it’s easy to go by.&lt;/p&gt;
+
+&lt;p&gt;The menu’s structure is based on OS X’s battery menu. Clicking on the icon reveals a small list of information and options:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;internet connection status&lt;/strong&gt; (already stated by the icon)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;connection method&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;a list of all apps accessing the internet&lt;/strong&gt;. Feels like this might be helpful the same way we have lists of apps that use a lot of battery or mobile data on iOS. The apps are sorted by the amount of data they are using.&lt;/li&gt;
+  &lt;li&gt;a button to quickly &lt;strong&gt;switch to tethering&lt;/strong&gt; when the primary connection drops&lt;/li&gt;
+  &lt;li&gt;a shortcut to the &lt;strong&gt;network settings&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The system could also use notifications to announce when it goes online or offline. The main goal is to signal the user immediately, before they are exposed to frustrating and award experiences when their start malfunctioning.&lt;/p&gt;
+
+&lt;h2 id=&quot;ios&quot;&gt;iOS&lt;/h2&gt;
+&lt;p&gt;A similar system could work on iOS, but I’m not sure it needs it. The system already displays a spinner in the status bar when an app uses the connection. Another thing is that we don’t stare at the screens of our mobile devices all the time while we’re using them. A lot of apps also use data in the background or in sleep mode. This is why Apple’s own data statistics in Settings feel more convenient.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Feb 2016 00:00:00 +0200</pubDate>
+        <link>http://improved.design/2016/02/29/online-indicator.html</link>
+        <guid isPermaLink="true">http://improved.design/2016/02/29/online-indicator.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Better progress indicators for Instapaper and Pocket</title>
+        <description>&lt;p&gt;I’ve always been a big fan of read it later services. Instapaper was one of the most used apps on my original iPhone. Later, I switched to Readability and finally settled on Pocket for a few years. Recently, I switched back to Instapaper and I’m quite pleased with the product. Through the years, a few things keep bugging me about read it later apps, one of them being dealing with reading progress.&lt;/p&gt;
+
+&lt;h2 id=&quot;instapaper-has-a-head-start&quot;&gt;Instapaper has a head start&lt;/h2&gt;
+&lt;p&gt;Instapaper seems to be on par with Pocket in terms of general capabilities, but the tools actually focused on improving the reading experience are much better. To this day, Pocket doesn’t visualize reading progress. It’s puzzling that such a simple feature is missing, especially having in mind that the service actually saves the progress so it can open on the correct page next time. Instapaper does a much better job, representing the read progress with text: “X out of Y min remaining”. I can’t say it’s a poor implementation, it does work for most people. It’s really slow to scan through though.&lt;/p&gt;
+
+&lt;h2 id=&quot;concept-1&quot;&gt;Concept 1&lt;/h2&gt;
+&lt;p&gt;My original concept is actually the one I like better. It uses a progress bar a bit thicker than the list separators. The paradigm is extremely well known and doesn’t require any additional vertical space.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/progress-tracking-concept1.png&quot; alt=&quot;Concept 1 features full width lines going through each list item that has been opened once&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Keeping in mind Instapaper’s stark aesthetics, I used an optically corrected version of the grey used for the original progress indicator. Pocket, on the other hand, is much more colorful and can adapt aquamarine indicators without them grabbing too much attention. Picking the color was a tough choice: after messing around with Pocket for a few minutes, I figured out it’s the only one of their four brand colors that doesn’t have a place in the system. Magenta is the general highlight color, teal is used for labels and other small components and yellow is for notification buttons.&lt;/p&gt;
+
+&lt;p&gt;The two disadvantages I’m aware of are:
+- some people might have a hard time figuring out the connection between progress indicators and list items. Is it attached to the top or to the bottom? I’ve experienced similar frustrations with long lists with no visual breaks.
+- it might be a tad too bold. But clarity should always be king, so not too much of a problem there.&lt;/p&gt;
+
+&lt;h2 id=&quot;concept-2&quot;&gt;Concept 2&lt;/h2&gt;
+&lt;p&gt;The second concept is, in my opinion, far less scalable and only  a marginal improvement compared to the current implementation. I came up with it just to challenged my original concept. It features a small round indicator sitting inline wth the existing text. It might look hard to read on screenshots, but it’s pretty generously sized on actual devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/progress-tracking-concept2.png&quot; alt=&quot;Concept 2 relies on round indicators sitting next to the existing text indicators&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;No interactive prototypes this time: both concepts are kind of static and I’m trying to complete my bachelor thesis in as little time as possible.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Feb 2016 00:00:00 +0200</pubDate>
+        <link>http://improved.design/2016/02/19/better-progress-indicators.html</link>
+        <guid isPermaLink="true">http://improved.design/2016/02/19/better-progress-indicators.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Frequently used contacts for iOS</title>
+        <description>&lt;p&gt;No other generation has had the chance to communicate with so many people through such a wide variety of channels than ours. Yet, majority of online interactions are formed by a small group of repeating actions. In most cases, we communicate with a single individual through a single channel. Send an iMessage to mom and dad, email a coworker, reach a group a friends through Messenger. It’s probably what you end up doing every time you pull up the share sheet. Yet, there’s no quick way to do it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/mac-recents.png&quot; alt=&quot;OS X&#39;s Recents Menu&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;taking-inspiration-from-the-mac&quot;&gt;Taking inspiration from the Mac&lt;/h2&gt;
+&lt;p&gt;The latest versions of OS X have solved this problem quite elegantly. There’s a “Recents” section in the Share menu. It’s not exactly what I have in mind, but it’s a great little interaction: fits perfectly inside the generic share menu, is extremely intuitive and, best of all, can adapt to your social patterns. Unfortunately, not too many OS X apps have share sheet extensions, so I don’t find myself using the native share sheet too often.&lt;/p&gt;
+
+&lt;h2 id=&quot;frequent-contactchannel-pairs&quot;&gt;Frequent “Contact+Channel” pairs&lt;/h2&gt;
+&lt;p&gt;What’s great about the Mac’s “Recents” section is that it adopts the concept of a “Contact+Channel” pair. Not only does it remember the person, but the way you reached them. How could we make it better?
+Instead of listing the most recent interactions, it makes much more sense to maintain a list of the most common ones throughout a longer period of time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/wasted-space.png&quot; alt=&quot;AirDrop compared with the ohter section of iOS&#39; share sheet&quot; class=&quot;2x&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pt-of-wasted-space&quot;&gt;126pt of wasted space&lt;/h2&gt;
+&lt;p&gt;But where would this menu fit and how would it work? After going  through the architecture of iOS’ share sheet, I thought about the 126pt of vertical space the AirDrop menu is wasting. It has at least a few problems.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;it takes as much space as more than four other actions (even more on larger devices)&lt;/li&gt;
+  &lt;li&gt;it doesn’t preserve space when there are no available AirDrop contacts&lt;/li&gt;
+  &lt;li&gt;does it really take 32 words spread through four lines of text just to explain what AirDrop does? No other share sheet item has such a large area to introduce itself.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I get it, Apple has been trying to promote it’s latest communication protocol throughout its platforms. Sadly, it’s fair to say AirDrop didn’t quite catch on. It almost never works for a lot of people, myself included. It’s a quick and clean way to send stuff when it works, but it has another problem. Are we really sharing the most when the other person is in the same room? I’m not backed by data, but I’d say we aren’t.&lt;/p&gt;
+
+&lt;p&gt;With all these concerns, I feel it’s safe to assume AirDrop could be downgraded to a regular action in the upper section of the drawer.&lt;/p&gt;
+
+&lt;video width=&quot;100%&quot; height=&quot;auto&quot; controls=&quot;controls&quot; poster=&quot;/video/poster_2.1.png&quot;&gt;
+&lt;source src=&quot;http://www.improved.design.s3.amazonaws.com/video/improved_video_2.1.webm&quot; type=&quot;video/webm&quot; /&gt;
+&lt;source src=&quot;http://www.improved.design.s3.amazonaws.com/video/improved_video_2.1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;div class=&quot;framer-wrapper&quot;&gt;
+
+  &lt;p class=&quot;tooltip&quot;&gt;Go through the prototype by clicking on any of the three contacts and tap anywhere to dismiss. There&#39;s a video if you&#39;re on mobile.↓&lt;/p&gt;
+
+  &lt;iframe data-anijs=&quot;if: mouseover, do: $addClass darkroom, to: body; if: mouseout, do: $removeClass darkroom, to: body&quot; style=&quot;width: 100%;
+      height: 800px;&quot; class=&quot;framer&quot; src=&quot;http://share.framerjs.com/p0pi4t8rc1qe/&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;putting-it-together&quot;&gt;Putting it together&lt;/h2&gt;
+&lt;p&gt;It’s quite an obvious implementation. The main goal is to make it feel familiar. The concept should not disrupt the existing sharing flow, but act as a shortcut which sends the user directly to the last stage of a share interaction. The person and method are pre-defined, so the last step is to add an optional piece of text. I experimented with one-tap sharing prototypes, but those are too dangerous. Good interfaces don’t rely on single-tap interactions for actions that can’t be undone. Sending a message to the wrong recipient could have extreme consequences, so the regular sheet for the app should always be included.&lt;/p&gt;
+
+&lt;h2 id=&quot;sdk-requirements&quot;&gt;SDK requirements&lt;/h2&gt;
+&lt;p&gt;I’m not too familiar with the iOS SDK, but I presume it might not contain an API that allows social apps to share a list of their most frequently used contacts. In my prototype, the share sheet includes a Messenger contact, which might not work. Anyway, even Messages, Mail and Twitter would be a nice start.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Jan 2016 00:00:00 +0200</pubDate>
+        <link>http://improved.design/2016/01/31/frequently-used-contacts-for-ios.html</link>
+        <guid isPermaLink="true">http://improved.design/2016/01/31/frequently-used-contacts-for-ios.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Better symbols for Sketch</title>
+        <description>&lt;p&gt;Since I started designing in the browser, I haven’t used Sketch for UI work too often. Coming back for a project that required using it was a frustrating experience due to the manual way everything is supposed to be done.&lt;/p&gt;
+
+&lt;p&gt;Switching from a 2-column to 4-column layout, for example, is tedious, and symbols, while useful, can’t be compared with classes and the way SASS works. Making things more tolerable requires a fair dose of plugins and most of them just don’t work as reliably as native features do.&lt;/p&gt;
+
+&lt;p&gt;Symbols are one of the most well designed features in Sketch. I believe they are capable of much more than they do now, so I spent a few hours coming up with ideas. I’m just thinking and prototyping publicly.&lt;/p&gt;
+
+&lt;h2 id=&quot;emulating-the-cascade&quot;&gt;Emulating the cascade&lt;/h2&gt;
+&lt;p&gt;The cascade (as in CSS) gets its fair amount of hate these days, but it’s an essential part of the way we design in most environments.&lt;/p&gt;
+
+&lt;p&gt;Every code-based design metaphor includes something that fits in the broad definition of a cascade. That’s not the same with graphical UI design tools like Sketch. Symbols are completely sandboxed and can’t interact with each other in any way while nesting them provides mostly an organizational benefit. Designing in SASS or even plain CSS is so much faster, more consistent and logical. Iterating is a breeze without breaking the whole system and similar styles can have different relationships that make basic human sense.&lt;/p&gt;
+
+&lt;p&gt;I find this GIF much more representative regarding Sketch’s symbols compared to CSS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/familyguy.gif&quot; alt=&quot;familyguy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With symbols in Sketch, we get something different. A non-negligible number of beginners get angry with them and never use them anymore because of that first couple dozen times when changing one instance messed up the entire project. It’s never the user’s fault when this kind of things happen and, even now, working with symbols feels a bit awkward to me. I can’t entirely drop the paranoia that I’m going to change hundreds of instances and than undo will start working in an unexpected way. To me, the symbols UI is prone to such problems as it might be too invisible.&lt;/p&gt;
+
+&lt;h2 id=&quot;exclude-text-value-from-symbol&quot;&gt;“Exclude Text Value from Symbol”&lt;/h2&gt;
+&lt;p&gt;This smart tiny feature made me smile when it was announced a few versions ago. It’s one of those humble decisions that solve a major problem in an elegant, almost transparent way. I’m sure it can go further.&lt;/p&gt;
+
+&lt;p&gt;Why limit the exclusion metaphor to text values only? It works for components that include text, but there are a bunch of other scenarios that could work the same way. My idea uses the standard symbol color coding to indicate which properties are affected by the symbol. By default, every property-value combination attached to the symbol gets highlighted in purple.&lt;/p&gt;
+
+&lt;p&gt;Apart from that, all properties affected by the symbol could be excluded on a per-layer basis. All you have to do is ‘CMD+Click’ on the label. It turns black, which means this property is no longer attached to the symbol for the specific layer. For example, you can experiment with different colors, font sizes or levels of opacity without detaching the layer from its symbol. To go back to the original symbol style, just ‘CMD+Click’ again and the labels goes back to purple, restoring the original symbol value for the field.&lt;/p&gt;
+
+&lt;video width=&quot;100%&quot; height=&quot;auto&quot; controls=&quot;controls&quot; poster=&quot;/video/poster_1.1.png&quot;&gt;
+&lt;source src=&quot;http://www.improved.design.s3.amazonaws.com/video/improved_video_1.1.webm&quot; type=&quot;video/webm&quot; /&gt;
+&lt;source src=&quot;http://www.improved.design.s3.amazonaws.com/video/improved_video_1.1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;div class=&quot;framer-wrapper&quot;&gt;
+
+  &lt;p class=&quot;tooltip&quot;&gt;Click on labels like Width, Height and Opacity to individually attach and detach properties from the symbol. ↓&lt;/p&gt;
+
+  &lt;iframe data-anijs=&quot;if: mouseover, do: $addClass darkroom, to: body; if: mouseout, do: $removeClass darkroom, to: body&quot; style=&quot;max-width: 428px;
+      height: 1260px;&quot; class=&quot;framer&quot; src=&quot;http://share.framerjs.com/parfnn3rl0l4/&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;editing-symbol-vs-branching&quot;&gt;Editing symbol vs branching&lt;/h2&gt;
+&lt;p&gt;Sadly, I’m not backed by data, but I’m not sure how many users iterate on symbol instances with the goal to edit the symbol project-wide. Most of the the times it’s just experimenting or fitting to a specific purpose which required deviation from the default symbol style. Meanwhile, editing the whole symbol is such an easy and silent thing to do. No wonder it takes months to develop a good enough confidence working with symbols.&lt;/p&gt;
+
+&lt;p&gt;A good example of making symbols safer is &lt;a href=&quot;http://www.webflow.com&quot;&gt;Webflow&lt;/a&gt;, where the user is required to double click to edit a symbol (regular objects require a single click). It’s an elegant reminder about the scale of the following events.
+My idea is a moderate iteration. It doesn’t affect the existing behavior: directly editing still affects all symbol instances project-wide.&lt;/p&gt;
+
+&lt;p&gt;A more extreme (and probably better) way to do it is to add an ‘Edit’ button next to the symbol name. Essentially, it would serve as the transparent safety cover on top of the big red button. Requiring one more interaction just to make sure you’re aware about what you are doing. Or maybe use a lock interaction like this one?&lt;/p&gt;
+&lt;video width=&quot;100%&quot; height=&quot;auto&quot; controls=&quot;controls&quot; poster=&quot;/video/poster_1.1.png&quot;&gt;
+&lt;source src=&quot;http://www.improved.design.s3.amazonaws.com/video/improved_video_1.2.webm&quot; type=&quot;video/webm&quot; /&gt;
+&lt;source src=&quot;http://www.improved.design.s3.amazonaws.com/video/improved_video_1.2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;div class=&quot;framer-wrapper&quot;&gt;
+
+  &lt;p class=&quot;tooltip&quot;&gt;Click on the padlock to trigger symbol editing on and off. ↓&lt;/p&gt;
+
+  &lt;iframe data-anijs=&quot;if: mouseover, do: $addClass darkroom, to: body; if: mouseout, do: $removeClass darkroom, to: body&quot; style=&quot;max-width: 428px;
+      height: 1260px;&quot; class=&quot;framer&quot; src=&quot;http://share.framerjs.com/2cf9faj10u48/&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I also did some experiments with a concept featuring a master/slave connection between a “master symbol” and all its iterations, but it is a poor idea. No one should have to go back searching for the original version to make changes. An “Edit” button on the symbols organization pane might be better, but it deviates from the easy way to edit properties in the inspector: something Sketch never does.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Jan 2016 00:00:00 +0200</pubDate>
+        <link>http://improved.design/2016/01/14/better-symbols-for-sketch.html</link>
+        <guid isPermaLink="true">http://improved.design/2016/01/14/better-symbols-for-sketch.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Improved</title>
+        <description>&lt;p&gt;Improved is a place where I can iterate on random ideas that go through my head, unified by the following principles.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the improvement should make the overall interaction faster and/or easier&lt;/li&gt;
+  &lt;li&gt;the improvement should empower users&lt;/li&gt;
+  &lt;li&gt;the improvement should not take away functionality&lt;/li&gt;
+  &lt;li&gt;the improvement’s UI and interaction pattern should feel as aligned with the existing system as possible&lt;/li&gt;
+  &lt;li&gt;the improvement should be executable in a real world scenario&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;If you want to read a bit more, here’s the short story of how Improved came into existence&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;My name is Darin, I’m a product designer and founder at the small design shop The Crazy Ones. I wrote the first lines of Improved’s code sometime in April 2015, wanting to set up a place where I can publicly share some of my product improvement ideas and possibly publish other designers’ work too. Unfortunately, I shattered my patella, followed by a busy quarter at work. I had almost forgotten about Improved, but the last project I worked on reminded me about it.&lt;/p&gt;
+
+&lt;p&gt;During the last quarter of 2015, we worked on a complete rethinking and redesign of a large-scale language testing platform used in corporate and military environments. When the last sprint ended, I didn’t feel like sharing anything on Dribbble, even though the NDA did allow that. The most important part of my work was a vast amount of small improvements, most of which could hardly be classified as visual. Through the years, I’ve began shifting more of my focus towards product thinking and functionality, even though I could still work on typography and color for hours on end.&lt;/p&gt;
+
+&lt;p&gt;For a few years, I’ve been compiling an Evernote notebook with dozens of improvement ideas. Scrolling through it when staying at my folks’ place for Christmas gave me the urge to start the project as soon as possible. So, here it is.&lt;/p&gt;
+
+&lt;p&gt;Younger me would say the driving force behind coming back to Improved is the rise of daily UI challenges. I have to admit, I’m not their biggest fan. All those articles on the Dribbblisation of design? I mostly agree with them. At the same  time, why be so negative? Design is awesome and everyone has the  right to practice and publicize it in all ways they find suitable.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Jan 2016 00:00:00 +0200</pubDate>
+        <link>http://improved.design/2016/01/12/hello-world.html</link>
+        <guid isPermaLink="true">http://improved.design/2016/01/12/hello-world.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

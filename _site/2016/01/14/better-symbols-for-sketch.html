@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    
+      <title>Better symbols for Sketch | Improved</title>
+      <meta property="og:title" content="Better symbols for Sketch | Improved" />
+      <meta property="og:image" content="/images/sketch_symbols_hero.png" />
+    
+
+    <meta name="description" content="Making software just a bit better.">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0;"/>
+
+    <!-- CSS & JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/css/stylesheet.css">
+
+    <!-- RSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="alternate" type="application/rss+xml" title="" href="http://improved.design/feed.xml">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#191c1f">
+<meta name="apple-mobile-web-app-title" content="Improved">
+<meta name="application-name" content="Improved">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+  <script type="text/javascript" src="/Scripts/min/functions-min.js"></script>
+<!--Google Analytics-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-72422130-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+
+<body>
+	<div class="content">
+		<!--The Navbar–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="navbar">
+  <a href="/" class="logo">Improved</a>
+  <ul class="nav-options">
+    <li class="navlink" href="/about" id="infoButton" data-anijs="if: click, do: $addClass visible, to: #infoModal">What is this?</li>
+  </ul>
+</div>
+
+		<div class="section">
+	<div class="container">
+		
+		<img class="hero 2x" src="/images/sketch_symbols_hero.png">
+		
+		<div class="paragraphContainer">
+			<h1>Better symbols for Sketch</h1>
+			<p class="published-date"><!-- Whitespace added for readability -->
+
+January
+14th
+
+2016<span class="length">5 min read</span></p>
+		</div>
+		<div class="paragraphContainer">
+			<p>Since I started designing in the browser, I haven’t used Sketch for UI work too often. Coming back for a project that required using it was a frustrating experience due to the manual way everything is supposed to be done.</p>
+
+<p>Switching from a 2-column to 4-column layout, for example, is tedious, and symbols, while useful, can’t be compared with classes and the way SASS works. Making things more tolerable requires a fair dose of plugins and most of them just don’t work as reliably as native features do.</p>
+
+<p>Symbols are one of the most well designed features in Sketch. I believe they are capable of much more than they do now, so I spent a few hours coming up with ideas. I’m just thinking and prototyping publicly.</p>
+
+<h2 id="emulating-the-cascade">Emulating the cascade</h2>
+<p>The cascade (as in CSS) gets its fair amount of hate these days, but it’s an essential part of the way we design in most environments.</p>
+
+<p>Every code-based design metaphor includes something that fits in the broad definition of a cascade. That’s not the same with graphical UI design tools like Sketch. Symbols are completely sandboxed and can’t interact with each other in any way while nesting them provides mostly an organizational benefit. Designing in SASS or even plain CSS is so much faster, more consistent and logical. Iterating is a breeze without breaking the whole system and similar styles can have different relationships that make basic human sense.</p>
+
+<p>I find this GIF much more representative regarding Sketch’s symbols compared to CSS.</p>
+
+<p><img src="/images/familyguy.gif" alt="familyguy" /></p>
+
+<p>With symbols in Sketch, we get something different. A non-negligible number of beginners get angry with them and never use them anymore because of that first couple dozen times when changing one instance messed up the entire project. It’s never the user’s fault when this kind of things happen and, even now, working with symbols feels a bit awkward to me. I can’t entirely drop the paranoia that I’m going to change hundreds of instances and than undo will start working in an unexpected way. To me, the symbols UI is prone to such problems as it might be too invisible.</p>
+
+<h2 id="exclude-text-value-from-symbol">“Exclude Text Value from Symbol”</h2>
+<p>This smart tiny feature made me smile when it was announced a few versions ago. It’s one of those humble decisions that solve a major problem in an elegant, almost transparent way. I’m sure it can go further.</p>
+
+<p>Why limit the exclusion metaphor to text values only? It works for components that include text, but there are a bunch of other scenarios that could work the same way. My idea uses the standard symbol color coding to indicate which properties are affected by the symbol. By default, every property-value combination attached to the symbol gets highlighted in purple.</p>
+
+<p>Apart from that, all properties affected by the symbol could be excluded on a per-layer basis. All you have to do is ‘CMD+Click’ on the label. It turns black, which means this property is no longer attached to the symbol for the specific layer. For example, you can experiment with different colors, font sizes or levels of opacity without detaching the layer from its symbol. To go back to the original symbol style, just ‘CMD+Click’ again and the labels goes back to purple, restoring the original symbol value for the field.</p>
+
+<video width="100%" height="auto" controls="controls" poster="/video/poster_1.1.png">
+<source src="http://www.improved.design.s3.amazonaws.com/video/improved_video_1.1.webm" type="video/webm" />
+<source src="http://www.improved.design.s3.amazonaws.com/video/improved_video_1.1.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
+<div class="framer-wrapper">
+
+  <p class="tooltip">Click on labels like Width, Height and Opacity to individually attach and detach properties from the symbol. ↓</p>
+
+  <iframe data-anijs="if: mouseover, do: $addClass darkroom, to: body; if: mouseout, do: $removeClass darkroom, to: body" style="max-width: 428px;
+      height: 1260px;" class="framer" src="http://share.framerjs.com/parfnn3rl0l4/"></iframe>
+</div>
+
+<h2 id="editing-symbol-vs-branching">Editing symbol vs branching</h2>
+<p>Sadly, I’m not backed by data, but I’m not sure how many users iterate on symbol instances with the goal to edit the symbol project-wide. Most of the the times it’s just experimenting or fitting to a specific purpose which required deviation from the default symbol style. Meanwhile, editing the whole symbol is such an easy and silent thing to do. No wonder it takes months to develop a good enough confidence working with symbols.</p>
+
+<p>A good example of making symbols safer is <a href="http://www.webflow.com">Webflow</a>, where the user is required to double click to edit a symbol (regular objects require a single click). It’s an elegant reminder about the scale of the following events.
+My idea is a moderate iteration. It doesn’t affect the existing behavior: directly editing still affects all symbol instances project-wide.</p>
+
+<p>A more extreme (and probably better) way to do it is to add an ‘Edit’ button next to the symbol name. Essentially, it would serve as the transparent safety cover on top of the big red button. Requiring one more interaction just to make sure you’re aware about what you are doing. Or maybe use a lock interaction like this one?</p>
+<video width="100%" height="auto" controls="controls" poster="/video/poster_1.1.png">
+<source src="http://www.improved.design.s3.amazonaws.com/video/improved_video_1.2.webm" type="video/webm" />
+<source src="http://www.improved.design.s3.amazonaws.com/video/improved_video_1.2.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
+<div class="framer-wrapper">
+
+  <p class="tooltip">Click on the padlock to trigger symbol editing on and off. ↓</p>
+
+  <iframe data-anijs="if: mouseover, do: $addClass darkroom, to: body; if: mouseout, do: $removeClass darkroom, to: body" style="max-width: 428px;
+      height: 1260px;" class="framer" src="http://share.framerjs.com/2cf9faj10u48/"></iframe>
+</div>
+
+<p>I also did some experiments with a concept featuring a master/slave connection between a “master symbol” and all its iterations, but it is a poor idea. No one should have to go back searching for the original version to make changes. An “Edit” button on the symbols organization pane might be better, but it deviates from the easy way to edit properties in the inspector: something Sketch never does.</p>
+
+			<h2>One more thing...</h2>
+			<p>Have an awesome idea about how this could work better? Don't keep it to yourself, send me a <a href="mailto:d@thecrazyones.agency">quick email</a> or DM me on <a href="http://www.twitter.com/@deezel" target="blank">Twitter</a>. I’ll feature it as an update on this page with full credit.</p>
+		</div>
+		<div class="separator"></div>
+	</div>
+</div>
+
+		<footer>
+  <div class="container">
+    <p>A project by <a href="http://www.darindimitroff.com">Darin Dimitroff</a>. Set in <a href="https://www.boldmonday.com/typeface/nitti-grotesk/">Nitti Grotesk</a> and served by <a href="http://jekyllrb.com">Jekyll</a>.</p>
+  </div>
+</footer>
+
+	</div>
+	<!--What's This-->
+<div class="modal" id="infoModal">
+    <div class="navbar">
+      <ul class="nav-options">
+        <li class="navlink close" data-anijs="if: click, do: $removeClass visible, to: #infoModal">Close</li>
+      </ul>
+    </div>
+    <div class="container">
+    <div class="modalText">
+      <div class="paragraphContainer">
+        <h1 class="title">improved</h1>
+        <p>Improved is a project by <a href="http://www.darindimitroff.com" target="_blank">Darin Dimitroff</a>, product designer at <a href="http://www.thecrazyones.agency" target="_blank">The Crazy Ones</a>.</p>
+        <p>Developing complete visual overhauls and focusing solely on decoration is a thing among designers these days, especially on Dribbble. In a world of increasing complexity, we should strive to be recognized as engineers, not jewelers. My goal for Improved is to appreciate what great design teams have built and try to take it at least one tiny step further. Nothing more.
+        </p>
+        <p>
+          <strong>TLDR: I see things that could be improved every day. This is a place where I explore ideas through writing and prototyping.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script src="/Scripts/anijs-min.js"></script>
+<script src="/Scripts/anijs-helper-dom-min.js"></script>
+<script src="/Scripts/min/functions-min.js"></script>

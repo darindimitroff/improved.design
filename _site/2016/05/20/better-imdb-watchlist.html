@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    
+      <title>Improved IMDB watchlist for iOS | Improved</title>
+      <meta property="og:title" content="Improved IMDB watchlist for iOS | Improved" />
+      <meta property="og:image" content="/images/better-watchlist-cover.png" />
+    
+
+    <meta name="description" content="Making software just a bit better.">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0;"/>
+
+    <!-- CSS & JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/css/stylesheet.css">
+
+    <!-- RSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="alternate" type="application/rss+xml" title="" href="http://improved.design/feed.xml">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#191c1f">
+<meta name="apple-mobile-web-app-title" content="Improved">
+<meta name="application-name" content="Improved">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+  <script type="text/javascript" src="/Scripts/min/functions-min.js"></script>
+<!--Google Analytics-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-72422130-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+
+<body>
+	<div class="content">
+		<!--The Navbar–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="navbar">
+  <a href="/" class="logo">Improved</a>
+  <ul class="nav-options">
+    <li class="navlink" href="/about" id="infoButton" data-anijs="if: click, do: $addClass visible, to: #infoModal">What is this?</li>
+  </ul>
+</div>
+
+		<div class="section">
+	<div class="container">
+		
+		<img class="hero 2x" src="/images/better-watchlist-cover.png">
+		
+		<div class="paragraphContainer">
+			<h1>Improved IMDB watchlist for iOS</h1>
+			<p class="published-date"><!-- Whitespace added for readability -->
+
+May
+20th
+
+2016<span class="length">2 min read</span></p>
+		</div>
+		<div class="paragraphContainer">
+			<p>IMDB is not the sexiest product around, but it’s extremely useful and has virtually no real alternatives. With a database so rich it’s a priceless resource (and it’s free). One of the features I use the most is IMDB’s watchlist. Pretty standard stuff, kind of like Instapaper for movies. I prefer saving movies inside the app instead of in Instapaper or a Reminders list. It’s super convenient to see more info with a single tap, including rich previews with posters.</p>
+
+<figure>
+
+  <img class="2x responsive-vertical-image" src="/images/better-watchlist-1.png" alt="A screenshot of IMDB's currrent watchlis on iOS" />
+
+  <figcaption>The current version of IMDB's watchlist on iOS 😐</figcaption>
+
+</figure>
+
+<p>Unfortunately, IMDB’s watchlist experience is not too great. The web version is… dated and, while iOS looks pretty native and current, it’s actually a bonanza of non-native components and weird choices like:</p>
+
+<ul>
+  <li>non-standard search component</li>
+  <li>tiny share button with a squished icon</li>
+  <li>an extremely awkward title</li>
+  <li>“New message/note” button which is actually an “Edit” button. On top of that, it opens a completely different view, something I’ve never seen elsewhere.</li>
+  <li>full-width sorting bar which is actually one huge button (with a fake visual button and a counter)</li>
+  <li>full-width “Add to List” button</li>
+  <li>puzzling “Mark as watched” buttons which trigger a delete menu 🙄</li>
+  <li>“Play trailer” shortcut buttons which look similar to the native list view chevrons</li>
+</ul>
+
+<p>Now that’s a lot, isn’t it? It’s not that hard to make it better, all we need is the HIG and some basic components used right. Here’s what I did in a few evenings.</p>
+
+<video width="100%" height="auto" controls="controls">
+<source src="/video/better-watchlist.mp4" type="video/mp4" />
+<source src="/video/better-watchlist.webm" type="video/webm" />
+Your browser does not support the video tag.
+</video>
+
+<div class="framer-wrapper">
+
+  <p class="tooltip"></p>
+
+  <iframe data-anijs="if: mouseover, do: $addClass darkroom, to: body; if: mouseout, do: $removeClass darkroom, to: body" class="framer" height="832" src="http://share.framerjs.com/n2eppqximdcp/"></iframe>
+</div>
+
+<p>It’s nothing special, just:</p>
+
+<ul>
+  <li>a standard navbar with a title, “Back” and “Edit” buttons and an additional “Sort” button (a rarely used layout found in Notes)</li>
+  <li>a standard search bar</li>
+  <li>a native bottom bar with a “Share” button and an “Add” button</li>
+  <li>a native couple of swipe actions to mark movies as watched or delete them</li>
+</ul>
+
+<p>I’ve also included a small part of the Shared watchlist feature I’m working on. As you might expect, it allows family members to access and edit a single watchlist. It’s coming soon.</p>
+
+<p>In conclusion, designing with 100% standard components is a super mindful and straightforward process. Although it’s not the ultimate solution to every problem, I wish we had more native apps nowadays, like in the early days of the App Store.</p>
+
+			<h2>One more thing...</h2>
+			<p>Have an awesome idea about how this could work better? Don't keep it to yourself, send me a <a href="mailto:d@thecrazyones.agency">quick email</a> or DM me on <a href="http://www.twitter.com/@deezel" target="blank">Twitter</a>. I’ll feature it as an update on this page with full credit.</p>
+		</div>
+		<div class="separator"></div>
+	</div>
+</div>
+
+		<footer>
+  <div class="container">
+    <p>A project by <a href="http://www.darindimitroff.com">Darin Dimitroff</a>. Set in <a href="https://www.boldmonday.com/typeface/nitti-grotesk/">Nitti Grotesk</a> and served by <a href="http://jekyllrb.com">Jekyll</a>.</p>
+  </div>
+</footer>
+
+	</div>
+	<!--What's This-->
+<div class="modal" id="infoModal">
+    <div class="navbar">
+      <ul class="nav-options">
+        <li class="navlink close" data-anijs="if: click, do: $removeClass visible, to: #infoModal">Close</li>
+      </ul>
+    </div>
+    <div class="container">
+    <div class="modalText">
+      <div class="paragraphContainer">
+        <h1 class="title">improved</h1>
+        <p>Improved is a project by <a href="http://www.darindimitroff.com" target="_blank">Darin Dimitroff</a>, product designer at <a href="http://www.thecrazyones.agency" target="_blank">The Crazy Ones</a>.</p>
+        <p>Developing complete visual overhauls and focusing solely on decoration is a thing among designers these days, especially on Dribbble. In a world of increasing complexity, we should strive to be recognized as engineers, not jewelers. My goal for Improved is to appreciate what great design teams have built and try to take it at least one tiny step further. Nothing more.
+        </p>
+        <p>
+          <strong>TLDR: I see things that could be improved every day. This is a place where I explore ideas through writing and prototyping.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script src="/Scripts/anijs-min.js"></script>
+<script src="/Scripts/anijs-helper-dom-min.js"></script>
+<script src="/Scripts/min/functions-min.js"></script>
