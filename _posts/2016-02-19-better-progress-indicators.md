@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Better progress indicators for Instapaper and Pocket
-date:   2016-02-19
+date:   February 19, 2016
 image: /images/progress-tracking-hero.jpg
 time: 2.5
 ---
