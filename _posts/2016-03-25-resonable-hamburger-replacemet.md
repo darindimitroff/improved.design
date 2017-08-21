@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A reasonable hamburger menu replacement with Flexbox
-date:   2016-03-25
+date:   March 25, 2016
 image: /images/reasonable-hamburger-menu-replacement-hero.jpg
 time: 4
 ---
