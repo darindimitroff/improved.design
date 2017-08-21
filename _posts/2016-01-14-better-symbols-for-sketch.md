@@ -2,7 +2,7 @@
 layout: post
 title:  Better symbols for Sketch
 subtitle: Taking “Exclude text value” one step further
-date:   2016-01-14
+date:   January 14, 2016
 image: /images/sketch_symbols_hero.png
 time: 5
 ---
