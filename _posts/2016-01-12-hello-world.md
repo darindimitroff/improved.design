@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Welcome to Improved
-date:   2016-01-12
+date: 2016-01-12
 time: 2
 ---
 
