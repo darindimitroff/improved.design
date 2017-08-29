@@ -1,0 +1,24 @@
+{
+    "data": {
+        "site": {
+            "siteMetadata": {
+                "title": "Improved"
+            }
+        },
+        "allMarkdownRemark": {
+            "edges": [
+                {
+                    "node": {
+                        "excerpt": "Improved is a place where I can iterate on random ideas that go through my head, unified by the following principles. the improvement should...",
+                        "frontmatter": {
+                            "path": "/welcome-to-improved/",
+                            "date": "12 January, 2016",
+                            "title": "Welcome to Improved"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

@@ -1,0 +1,20 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 2,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/welcome-to-improved/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}
