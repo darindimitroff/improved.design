@@ -4,10 +4,10 @@
     <title>Improved</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Aug 2017 22:34:43 +0300</pubDate>
-    <lastBuildDate>Mon, 21 Aug 2017 22:34:43 +0300</lastBuildDate>
+    <link>http://www.improved.design/</link>
+    <atom:link href="http://www.improved.design/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Aug 2017 22:48:11 +0300</pubDate>
+    <lastBuildDate>Mon, 21 Aug 2017 22:48:11 +0300</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -38,8 +38,8 @@
 &lt;p&gt;I don’t know about you, but one of these surely would make my Instapaper cross-device-experience a lot smoother.&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Aug 2017 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/2017/08/21/currently-reading-for-Instapaper.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/08/21/currently-reading-for-Instapaper.html</guid>
+        <link>http://www.improved.design/2017/08/21/currently-reading-for-Instapaper.html</link>
+        <guid isPermaLink="true">http://www.improved.design/2017/08/21/currently-reading-for-Instapaper.html</guid>
         
         
       </item>
@@ -98,8 +98,8 @@ Your browser does not support the video tag.
 &lt;p&gt;In conclusion, designing with 100% standard components is a super mindful and straightforward process. Although it’s not the ultimate solution to every problem, I wish we had more native apps nowadays, like in the early days of the App Store.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 May 2016 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/2016/05/20/better-imdb-watchlist.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/05/20/better-imdb-watchlist.html</guid>
+        <link>http://www.improved.design/2016/05/20/better-imdb-watchlist.html</link>
+        <guid isPermaLink="true">http://www.improved.design/2016/05/20/better-imdb-watchlist.html</guid>
         
         
       </item>
@@ -146,8 +146,8 @@ Your browser does not support the video tag.
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 25 Mar 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2016/03/25/resonable-hamburger-replacemet.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/03/25/resonable-hamburger-replacemet.html</guid>
+        <link>http://www.improved.design/2016/03/25/resonable-hamburger-replacemet.html</link>
+        <guid isPermaLink="true">http://www.improved.design/2016/03/25/resonable-hamburger-replacemet.html</guid>
         
         
       </item>
@@ -195,8 +195,8 @@ Your browser does not support the video tag.
 &lt;p&gt;A similar system could work on iOS, but I’m not sure it needs it. The system already displays a spinner in the status bar when an app uses the connection. Another thing is that we don’t stare at the screens of our mobile devices all the time while we’re using them. A lot of apps also use data in the background or in sleep mode. This is why Apple’s own data statistics in Settings feel more convenient.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Feb 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2016/02/29/online-indicator.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/02/29/online-indicator.html</guid>
+        <link>http://www.improved.design/2016/02/29/online-indicator.html</link>
+        <guid isPermaLink="true">http://www.improved.design/2016/02/29/online-indicator.html</guid>
         
         
       </item>
@@ -229,8 +229,8 @@ Your browser does not support the video tag.
 &lt;p&gt;No interactive prototypes this time: both concepts are kind of static and I’m trying to complete my bachelor thesis in as little time as possible.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Feb 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2016/02/19/better-progress-indicators.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/02/19/better-progress-indicators.html</guid>
+        <link>http://www.improved.design/2016/02/19/better-progress-indicators.html</link>
+        <guid isPermaLink="true">http://www.improved.design/2016/02/19/better-progress-indicators.html</guid>
         
         
       </item>
@@ -283,8 +283,8 @@ Your browser does not support the video tag.
 &lt;p&gt;I’m not too familiar with the iOS SDK, but I presume it might not contain an API that allows social apps to share a list of their most frequently used contacts. In my prototype, the share sheet includes a Messenger contact, which might not work. Anyway, even Messages, Mail and Twitter would be a nice start.&lt;/p&gt;
 </description>
         <pubDate>Sun, 31 Jan 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2016/01/31/frequently-used-contacts-for-ios.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/01/31/frequently-used-contacts-for-ios.html</guid>
+        <link>http://www.improved.design/2016/01/31/frequently-used-contacts-for-ios.html</link>
+        <guid isPermaLink="true">http://www.improved.design/2016/01/31/frequently-used-contacts-for-ios.html</guid>
         
         
       </item>
@@ -351,8 +351,8 @@ Your browser does not support the video tag.
 &lt;p&gt;I also did some experiments with a concept featuring a master/slave connection between a “master symbol” and all its iterations, but it is a poor idea. No one should have to go back searching for the original version to make changes. An “Edit” button on the symbols organization pane might be better, but it deviates from the easy way to edit properties in the inspector: something Sketch never does.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Jan 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2016/01/14/better-symbols-for-sketch.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/01/14/better-symbols-for-sketch.html</guid>
+        <link>http://www.improved.design/2016/01/14/better-symbols-for-sketch.html</link>
+        <guid isPermaLink="true">http://www.improved.design/2016/01/14/better-symbols-for-sketch.html</guid>
         
         
       </item>
@@ -380,8 +380,8 @@ Your browser does not support the video tag.
 &lt;p&gt;Younger me would say the driving force behind coming back to Improved is the rise of daily UI challenges. I have to admit, I’m not their biggest fan. All those articles on the Dribbblisation of design? I mostly agree with them. At the same  time, why be so negative? Design is awesome and everyone has the  right to practice and publicize it in all ways they find suitable.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jan 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2016/01/12/hello-world.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/01/12/hello-world.html</guid>
+        <link>http://www.improved.design/2016/01/12/hello-world.html</link>
+        <guid isPermaLink="true">http://www.improved.design/2016/01/12/hello-world.html</guid>
         
         
       </item>
