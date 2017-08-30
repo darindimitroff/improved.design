@@ -7,7 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1504037418444,
+      "updatedAt": 1504122004042,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e66015cb3382e62db5911fc989f10fb4",
+        "contentDigest": "0fa80fefdd102a697241e8e1abb2993a",
         "owner": "internal-data-bridge"
       }
     },
@@ -1226,12 +1226,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-08-29T20:10:13.309Z",
+      "buildTime": "2017-08-30T19:40:00.780Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9cdb35e2947261b9a7038c567c3fa778",
+        "contentDigest": "13de2f9c77cf8206b3f22c83f95ab95f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1241,7 +1241,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8d4af4ef65fedd62ce5387d38a1bc838",
+        "contentDigest": "ee58275bb58d0bb82cfb57f84594777d",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1250,11 +1250,11 @@
       "absolutePath": "/Users/deezel/Improved/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 1904,
-      "prettySize": "1.9 kB",
-      "modifiedTime": "2017-08-29T19:17:39.000Z",
-      "accessTime": "2017-08-29T20:10:17.000Z",
-      "changeTime": "2017-08-29T19:17:39.000Z",
+      "size": 1852,
+      "prettySize": "1.85 kB",
+      "modifiedTime": "2017-08-30T19:18:16.000Z",
+      "accessTime": "2017-08-30T19:18:17.000Z",
+      "changeTime": "2017-08-30T19:18:16.000Z",
       "birthTime": "2017-08-29T19:17:39.000Z",
       "root": "/",
       "dir": "/Users/deezel/Improved/src/pages",
@@ -1270,9 +1270,9 @@
       "blksize": 4096,
       "ino": 138817415,
       "blocks": 8,
-      "atime": "2017-08-29T20:10:17.000Z",
-      "mtime": "2017-08-29T19:17:39.000Z",
-      "ctime": "2017-08-29T19:17:39.000Z",
+      "atime": "2017-08-30T19:18:17.000Z",
+      "mtime": "2017-08-30T19:18:16.000Z",
+      "ctime": "2017-08-30T19:18:16.000Z",
       "birthtime": "2017-08-29T19:17:39.000Z"
     },
     "/Users/deezel/Improved/src/pages/2015-05-01-hello-world/index.md absPath of file": {
@@ -1395,7 +1395,7 @@
       "layout": "index",
       "jsonName": "welcome-to-improved.json",
       "internalComponentName": "ComponentWelcomeToImproved",
-      "updatedAt": 1504037418628,
+      "updatedAt": 1504122004065,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/deezel/Improved/src/templates/blog-post.js",
@@ -1404,7 +1404,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3f800e0d3e83daf88536ca788b086d47",
+        "contentDigest": "e2b83079e272b221d935bd0b6d738a36",
         "owner": "internal-data-bridge"
       }
     },
@@ -1415,7 +1415,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1504037418637,
+      "updatedAt": 1504122004074,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -1425,7 +1425,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e6b60505a0d03fa5019cf4fac960eb21",
+        "contentDigest": "13c457f586533e785bba077ffbac9758",
         "owner": "internal-data-bridge"
       }
     }
